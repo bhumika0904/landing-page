@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, footer {
+    width: 100%;
+    height:50px;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #ffe066, #ff66cc);
+    padding: 10px 20px;
+    color: black;
+}
+
+.nav__logo {
+    width: 100px; /* Adjust the width as needed */
+    height: 90px; /* Maintain aspect ratio */
+    max-height: 50px; /* Adjust max height to fit within the nav bar */
+    margin-right: 650px; /* Reduce space between logo and links */
+}
+
+.nav__links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-left: 0; /* Remove additional space between logo and links */
+    padding-left: 0; /* Remove padding if there's any */
+    cursor:pointer;
+
+}
+
+.nav__item {
+    margin-left: 10px; /* Adjust the space between each link */
+}
+.nav__link{
+    margin-left: 60px;
+    font-size:20px;
+    font-weight:bold; 
+}
+.nav__link--btn{
+    background-color: rgba(255, 187, 0, 0.795);
+    padding:0.75rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: black;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+.main{
+    height:350px;
+    width:100%;
+}
+
+.sub-nav {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between items */
+    background: linear-gradient(to right, #ffe066, #ff66cc);}
+
+.sub-nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.subtitles1 {
+    margin-left: 210px; /* Remove default margin */
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: bold; /* Make the text bold */
+}
+.subtitles2 {
+    margin-right: 210px; /* Remove default margin */
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: bold; /* Make the text bold */
+}
+
+.sub-nav h3 {
+    margin: 5px 0; /* Adjust top margin to control spacing below h2 */
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+.about{
+    margin-left:40px;
+    flex: 1;
+    margin-right: 20px;
+    
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+}
+
+.heading{
+    text-decoration: underline;
+}
+
+.about-img1 {
+    margin-right: 10px;
+    width:240px;
+    height:150px;
+    margin-right:120px;
+
+}
+.about-img2 {
+    margin-right: 10px;
+    width:240px;
+    height:150px;
+    margin-right:150px;
+
+}
+
+.service{
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between; /* Adjusts spacing between images */
+    margin-top: 20px; /* Adds space between the h2 and the images */
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px; /* Adds horizontal margin between items */
+}
+
+.iimg {
+    width: 350px; /* Adjust size as needed */
+    height: 150px;
+    margin-bottom: 10px; /* Space between image and heading */
+}
+
+.our-services {
+    text-align: center;
+    margin: 0;
+}
+
+
+
