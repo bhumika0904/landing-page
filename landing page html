@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="stylingport.css">
+</head>
+<body>
+    <nav class="nav">
+        <img
+          src="imageland.jpeg"
+          alt="Bankist logo"
+          class="nav__logo"
+          id="logo"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link">Blog</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link">Page</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link">Service</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Buy Now</a
+            >
+          </li>
+        </ul>
+      </nav>
+    <img class="main" src="collab.jpg" alt="Bhumika's Image">
+    <div class="sub-nav">
+        <div class="sub-nav-item">
+            <h2 class="subtitles1">LAUNCH BUISNESS</h2>
+            <h3 class="one">Ideas Evolution And Mindset</h3>
+        </div>
+        <div class="sub-nav-item">
+            <h2 class="subtitles2">ONLINE SUPPORT TEAM</h2>
+            <h3 class="two">24*7 Service Available</h3>
+        </div>
+    </div>
+    
+    <h1 class="about heading">About Us</h1>
+    <h3 class="about">15 years, we passionate in achieving better results for our clients</h2>
+    <div class="about-container">
+    <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit.Quibusdam inventore <br>magnam laboriosam repudiandae mollitia corporis fugit voluptatibus deserunt!<br> Dolor obcaecati, aliquid itaque nisi ea voluptas dolorem illum suscipit amet <br>magni.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius iste modi,<br> nobis velit reprehenderit officiis nisi cupiditate saepe ipsum id quaerat <br>perspiciatis, odio tempora a quod vel ex? Ullam, officiis.</p>
+
+    <img class="about-img1" src="bankist2.jpeg">
+    <img class="about-img2" src="bankist2.jpeg">
+    
+
+</div>
+    
+    <hr>
+    <h2 class="service">OUR SERVICES</h2>
+<div class="services-container">
+    <div class="service-item">
+        <img class="iimg" src="bankist2.jpeg" alt="Service 1">
+        <h3 class="our-services">User Experience</h3>
+    </div>
+    <div class="service-item">
+        <img class="iimg" src="bankist2.jpeg" alt="Service 2">
+        <h3 class="our-services">Creative Design</h3>
+    </div>
+    <div class="service-item">
+        <img class="iimg" src="bankist2.jpeg" alt="Service 3">
+        <h3 class="our-services">Rent Ready</h3>
+    </div>
+</div>
+
+    <hr>
+    <h2 class="service">CONNECT WITH US</h2>
+    <p class="service">Email:abc@gmail.com</p>
+    <p class="service">Contact: 9083249273</p>
+</body>
+</html>
+ 
